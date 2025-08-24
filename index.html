@@ -1,0 +1,333 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="Portfolio" content="Computer Science student at FAU">
+    <title>Yunus Karatas Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/dff9d69082.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--------------------------------NAVBAR------------------------------------------------->
+    <nav>
+        <div class="nav-container">
+            <img src="images/mask.jpeg" class="logo">
+            <ul class="menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="Theme-switch" id="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+<!--------------------------------HOME------------------------------------------------->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Yunus Karatas</h1>
+                <div class="home-subtitle">
+                    CS Student • <span>Graduating 2026</span> • Seeking Internships
+                </div>
+                <p class="home-description">
+                    Florida Atlantic University Computer Science student specializing in AI, data science, and full-stack development. 
+                    Building innovative solutions with modern technologies.
+                </p>
+                <div class="home-skills">
+                    <div class="skill-tag">
+                        <i class="fab fa-python"></i>
+                        Python
+                    </div>
+                    <div class="skill-tag">
+                        <i class="fab fa-js"></i>
+                        JavaScript
+                    </div>
+                    <div class="skill-tag">
+                        <i class="fas fa-brain"></i>
+                        Machine Learning
+                    </div>
+                    <div class="skill-tag">
+                        <i class="fas fa-database"></i>
+                        SQL
+                    </div>
+                </div>
+
+                <!---CTA's-->
+                <div class="home-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View Projects
+                    </a>
+                    <a href="mailto:karatasyunus@icloud.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                    <a href="images/Concept.jpeg" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Resume
+                    </a>
+                </div>
+                
+                <div class="home-featured">
+                    <h3>☆FEATURED☆</h3>
+                    <p>AI-powered plant-health detector tool using TesnorFlow and computer vision. Achieved a 89% accuracy in disease detection.</p>
+                    <div class="featured-tech">
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <div class="project-link">
+                        <!--MAKE SURE TO ADD LINKS-->
+                        <a href="#">📁Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-picture">
+                <img src="images/Wonder.png" id="profile-img">
+            </div>
+        </div>
+    </section>
+<!--------------------------------ABOUT------------------------------------------------->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div>
+                <h2 class="section-title">Quick Overview</h2>
+<!----------------------POSSIBLE ADD VIEW COURSES SECTION TO SEE WHAT COURSES HAVE BEEN TAKEN-------------------------->
+                <div class="highlight-box">
+                    <h4>Education</h4>
+                    <div class="about-item">
+                        <img src="images/logos/fau.png" class="about-logo">
+                        <div class="about-logo-placeholder" style="display: none;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-name"><strong>Florida Atlantic University</strong></div>
+                            <div class="about-role">B.S. Computer Science • Minor: Data Science & AI</div>
+                            <div class="about-date">Expected: May 2026</div>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <img src="images/logos/cooper.jpg" class="about-logo">
+                        <div class="about-logo-placeholder" style="display: none;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-name"><strong>Cooper City High School</strong></div>
+                            <div class="about-date">2018 - 2022</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Experience</h4>
+                    <div class="about-item">
+                        <img src="images/logos/Setkitchens.webp" class="about-logo">
+                        <div class="about-logo-placeholder" style="display: none;">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-name"><strong>SetKitchens</strong></div>
+                            <div class="about-role">Administrative Support</div>
+                            <div class="about-date">2023 - Present</div>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <img src="images/logos/OB.png" class="about-logo">
+                        <div class="about-logo-placeholder" style="display: none;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-name"><strong>OpenBots</strong></div>
+                            <div class="about-role">RPA Development Observer</div>
+                            <div class="about-date">Summer 2023</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Key Strengths</h4>
+                    <ul class="highlight-list">
+                        <li><strong>AI/ML Implementation</strong> (TensorFlow)</li>
+                        <li><strong>Problem Solving</strong> (Algorithm optimization)</li>
+                        <li><strong>Team Collaboration</strong> (Git)</li>
+                    </ul>
+                </div>
+            </div>
+            <!--SKILL SECTION-->
+            <div class="about-skills">
+                <h2 class="section-title">Technical Skills</h2>
+
+                <h4>Programming Languages</h4>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <div>Python</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <div>JavaScript</div>
+                    </div>
+                    <div class="skill-item">    
+                        <i class="devicon-cplusplus-plain"></i>
+                        <div>C++</div>
+                    </div>
+                    <div class="skill-item">    
+                        <i class="devicon-swift-plain"></i>
+                        <div>Swift</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <div>SQL</div>
+                    </div>
+                    <div class="skill-item">     
+                        <i class="devicon-css3-plain"></i>
+                        <div>CSS</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-html5-plain"></i>
+                        <div>HTML</div>
+                    </div>
+                </div>
+
+                <h4>Frameworks and Tools</h4>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <div>React</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-flask"></i>
+                        <div>Flask</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git"></i>
+                        <div>Git</div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-brain"></i>
+                        <div>TensorFlow</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--------------------------------------------PROJECT SECTION------------------------------------------>
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="images/plantus.jpg" onerror="this.style.display='none'; this.parentNode.style.background='linear-gradient(135deg, #10B981 0%, #059669 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Plantus AI</h3>
+                            <a href="https://github.com/yourusername/plantus-ai" class="project-discover">
+                                Discover
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <p class="project-description">
+                            AI-powered plant health diagnostic tool using TensorFlow and computer vision. Achieved 89% accuracy in disease detection across 12 common plant diseases.
+                        </p>
+                        <div class="project-skills">
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="images/P5X.webp" onerror="this.style.display='none'; this.parentNode.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Portfolio Site</h3>
+                            <a href="https://github.com/yourusername/portfolio" class="project-discover">
+                                Discover
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <p class="project-description">
+                            Modern, responsive portfolio website showcasing projects and skills. Built with vanilla HTML, CSS, and JavaScript with smooth animations.
+                        </p>
+                        <div class="project-skills">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="images/text.jpg" onerror="this.style.display='none'; this.parentNode.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)';">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Data Insights</h3>
+                            <a href="https://github.com/yourusername/data-insights" class="project-discover">
+                                Discover
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <p class="project-description">
+                            Interactive data visualization dashboard analyzing student performance trends. Built with Python and modern data science libraries.
+                        </p>
+                        <div class="project-skills">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Matplotlib</span>
+                            <span class="project-tag">Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--------------------------------------------Contact SECTION------------------------------------------>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p>Open to internship oppurtunities and exciting projects</p>
+
+            <div>
+                📧 karatasyunus@icloud.com • 📱 786-774-2700
+            </div>
+
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yunus-karatas" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/qkloun" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://instagram.com/qkloun" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <a href="images/Concept.jpeg" download class="btn btn-primary">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
