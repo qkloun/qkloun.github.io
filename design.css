@@ -611,3 +611,19 @@ nav{
     transform: translateY(-3px);
 }
 
+.mobile-menu-toggle { display: none; }
+@media (max-width: 768px) {
+    .mobile-menu-toggle { display: block; }
+    .menu { display: none; }
+    .menu.active { 
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--navbackground);
+        padding: 1rem;
+        box-shadow: var(--navbarshadow);
+    }
+}
