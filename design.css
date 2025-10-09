@@ -362,7 +362,7 @@ nav{
     background-color: var(--sechighlight);
     border-radius: 0.5rem;
     display: flex;
-    align-items: cenetr;
+    align-items: center;
     justify-content: center;
     color: white;
     font-size: 1.25rem;
