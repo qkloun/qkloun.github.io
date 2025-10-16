@@ -9,15 +9,15 @@ ThemeToggle.addEventListener('click', () => {
     const Icon = ThemeToggle.querySelector('i');
     console.log("Icon found:", Icon);
     
-    if(document.body.classList.contains('light-mode')){
-        document.body.classList.remove('light-mode');
+    if(document.body.classList.contains('dark-mode')){
+        document.body.classList.remove('dark-mode');
         Icon.className = 'fas fa-sun';
         // Switch to dark mode images
         if(PortfolioProjectImg) {
             PortfolioProjectImg.src = 'images/P5X.webp'; //dark mode image
         }
     } else {
-        document.body.classList.add('light-mode');
+        document.body.classList.add('dark-mode');
         Icon.className = 'fas fa-moon';
         // Switch to light mode images
         if(PortfolioProjectImg) {
