@@ -1,4 +1,26 @@
 :root{
+        /*primary colors*/
+    --background: #FAFAFA;
+    --navbackground: #FAFAFA;
+    --navbarshadow: 0 2px 10px rgba(0,0,0,0.2);
+    --secbackground:#E5E7EB;
+    --thirdbackground:#D1D5DB;
+
+    /*Accent colors*/
+    --highlight: #D97706;/*THINK ABT THIS colors pf secHighlight n highlight swapped. Discuss*/
+    --sechighlight: #F59E0B;
+    --trihighlight: #B45309;
+    /*Maybe?*/
+    --hover: #DC2626;
+
+    /*Neutral colors*/
+    --text-main: #451A03;
+    --text-secondary: #78350F;
+    --text-trietary: #A16207;
+    --contrast: #92400E;
+}
+
+.dark-mode{
     /*primary colors*/
     --background: #2C2F33;
     --navbackground: #2C2F33;
@@ -18,28 +40,6 @@
     --text-secondary: #E2E8F0;
     --text-trietary: #A0AEC0;
     --contrast: #FEF0D5;
-}
-
-.light-mode{
-    /*primary colors*/
-    --background: #FAFAFA;
-    --navbackground: #FAFAFA;
-    --navbarshadow: 0 2px 10px rgba(0,0,0,0.2);
-    --secbackground:#E5E7EB;
-    --thirdbackground:#D1D5DB;
-
-    /*Accent colors*/
-    --highlight: #D97706;/*THINK ABT THIS colors pf secHighlight n highlight swapped. Discuss*/
-    --sechighlight: #F59E0B;
-    --trihighlight: #B45309;
-    /*Maybe?*/
-    --hover: #DC2626;
-
-    /*Neutral colors*/
-    --text-main: #451A03;
-    --text-secondary: #78350F;
-    --text-trietary: #A16207;
-    --contrast: #92400E;
 }
 
 *{
