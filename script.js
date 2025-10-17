@@ -14,14 +14,14 @@ ThemeToggle.addEventListener('click', () => {
         Icon.className = 'fas fa-sun';
         // Switch to dark mode images
         if(PortfolioProjectImg) {
-            PortfolioProjectImg.src = 'images/P5X.webp'; //dark mode image
+            PortfolioProjectImg.src = 'images/P5XD.webp'; //light mode image
         }
     } else {
         document.body.classList.add('dark-mode');
         Icon.className = 'fas fa-moon';
-        // Switch to light mode images
+        // Switch to dark mode images
         if(PortfolioProjectImg) {
-            PortfolioProjectImg.src = 'images/P5XD.webp'; //light mode image
+            PortfolioProjectImg.src = 'images/P5X.webp'; //light mode image
         }
     }
 });
